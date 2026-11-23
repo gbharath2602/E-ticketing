@@ -2,8 +2,8 @@ pipeline {
     agent any
 
     tools {
-        maven 'Maven-3'   // Manage Jenkins > Tools: Maven installation named "Maven-3"
-        jdk   'JDK-11'    // Manage Jenkins > Tools: JDK installation named "JDK-11"
+        maven 'MAVEN_HOME'   // Manage Jenkins > Tools: Maven installation named "Maven-3"
+        jdk   'JDK17'    // Manage Jenkins > Tools: JDK installation named "JDK-11"
     }
 
     options {
